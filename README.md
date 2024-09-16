@@ -10,7 +10,7 @@ This repository contains computing codes for the paper "Improving the within-Nod
 
 ### 1-Data Generation
 
-In this folder, we summarize the computing codes for generating survival data following a Weibull hazard model. There are two subfolders, 'Categorcial' and 'Continuous', each containing two folders, 'high dimension' and 'low dimension'. In each folder, the names of the code and the corresponding simulation scenarios in the paper are as follows,
+In this folder, we summarize the computing codes for generating survival data following a Weibull hazard model. There are two subfolders, `Continuous` containing codes for generating data with only continuous variables, and `Categorcial` containing codes for data involving categorical variables. Each of the two folders contains two folders, `low dimension` where each dataset generated has 10 covariates and `high dimension` where each dataset generated has n+50 dataset (n is the number of observations). In each folder, the names of the code and the corresponding simulation scenarios in the paper are as follows,
 
 
 * *data_generation_1.r* - tree-based effect, 100 sample size, 80% event rate.
