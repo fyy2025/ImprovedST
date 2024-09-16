@@ -10,23 +10,27 @@ This repository contains computing codes for the paper "Improving the within-Nod
 
 ### 1-Data Generation
 
-In this folder, we summarize the computing codes for generating survival data following a Weibull hazard model. The names of the code and the corresponding simulation scenarios in the paper are as follows,
+In this folder, we summarize the computing codes for generating survival data following a Weibull hazard model. There are two subfolders, 'Categorcial' and 'Continuous', each containing two folders, 'high dimension' and 'low dimension'. In each folder, the names of the code and the corresponding simulation scenarios in the paper are as follows,
 
-#### Continuous
 
-##### Low Dimension
 * *data_generation_1.r* - tree-based effect, 100 sample size, 80% event rate.
 * *data_generation_2.r* - tree-based effect, 100 sample size, 50% event rate.
 * *data_generation_3.r* - tree-based effect, 300 sample size, 50% event rate.
 * *data_generation_4.r* - tree-based effect, 300 sample size, 30% event rate.
-* *data_generation_5.r* - linear covariate effect, 100 sample size, 80% event rate.
-* *data_generation_6.r* - linear covariate effect, 100 sample size, 50% event rate.
-* *data_generation_7.r* - linear covariate effect, 300 sample size, 50% event rate.
-* *data_generation_8.r* - linear covariate effect, 300 sample size, 30% event rate.
-* *data_generation_9.r* - nonlinear covariate effect, 100 sample size, 80% event rate.
-* *data_generation_10.r* - nonlinear covariate effect, 100 sample size, 50% event rate.
-* *data_generation_11.r* - nonlinear covariate effect, 300 sample size, 50% event rate.
-* *data_generation_12.r* - nonlinear covariate effect, 300 sample size, 30% event rate.
+* *data_generation_5.r* - tree-based effect, 500 sample size, 30% event rate.
+* *data_generation_6.r* - tree-based effect, 500 sample size, 30% event rate.
+* *data_generation_7.r* - linear covariate effect, 100 sample size, 80% event rate.
+* *data_generation_8.r* - linear covariate effect, 100 sample size, 50% event rate.
+* *data_generation_9.r* - linear covariate effect, 300 sample size, 50% event rate.
+* *data_generation_10.r* - linear covariate effect, 300 sample size, 30% event rate.
+* *data_generation_11.r* - linear covariate effect, 500 sample size, 30% event rate.
+* *data_generation_12.r* - linear covariate effect, 500 sample size, 20% event rate.
+* *data_generation_13.r* - nonlinear covariate effect, 100 sample size, 80% event rate.
+* *data_generation_14.r* - nonlinear covariate effect, 100 sample size, 50% event rate.
+* *data_generation_15.r* - nonlinear covariate effect, 300 sample size, 50% event rate.
+* *data_generation_16.r* - nonlinear covariate effect, 300 sample size, 30% event rate.
+* *data_generation_17.r* - nonlinear covariate effect, 500 sample size, 30% event rate.
+* *data_generation_18.r* - nonlinear covariate effect, 500 sample size, 20% event rate.
 
 ### 2-Analysis
 
