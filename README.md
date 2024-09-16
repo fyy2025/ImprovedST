@@ -12,9 +12,9 @@ This repository contains computing codes for the paper "Improving the within-Nod
 
 In this folder, we summarize the computing codes for generating survival data following a Weibull hazard model. The names of the code and the corresponding simulation scenarios in the paper are as follows,
 
-## Continuous
+#### Continuous
 
-# Low Dimension
+##### Low Dimension
 * *data_generation_1.r* - tree-based effect, 100 sample size, 80% event rate.
 * *data_generation_2.r* - tree-based effect, 100 sample size, 50% event rate.
 * *data_generation_3.r* - tree-based effect, 300 sample size, 50% event rate.
