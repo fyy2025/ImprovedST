@@ -34,7 +34,7 @@ In this folder, we summarize the computing codes for generating survival data fo
 
 ### 2-Analysis
 
-In this folder, we summarize the computing codes for fitting the proposed survival tree ensemble method and comparing the concordance index with single tree approach. The structure is the same as that in `Data_generation` In each folder, the names of the code and the corresponding simulation scenarios in the paper are as follows,
+In this folder, we summarize the computing codes for fitting the proposed survival tree ensemble method and comparing the concordance index with single tree approach. The structure is the same as that in `Data Generation` In each folder, the names of the code and the corresponding simulation scenarios in the paper are as follows,
 
 * *analysis_1.r* - tree-based effect, 100 sample size, 80% event rate.
 * *analysis_2.r* - tree-based effect, 100 sample size, 50% event rate.
