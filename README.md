@@ -18,7 +18,7 @@ In this folder, we summarize the computing codes for generating survival data fo
 * *data_generation_3.r* - tree-based effect, 300 sample size, 50% event rate.
 * *data_generation_4.r* - tree-based effect, 300 sample size, 30% event rate.
 * *data_generation_5.r* - tree-based effect, 500 sample size, 30% event rate.
-* *data_generation_6.r* - tree-based effect, 500 sample size, 30% event rate.
+* *data_generation_6.r* - tree-based effect, 500 sample size, 20% event rate.
 * *data_generation_7.r* - linear covariate effect, 100 sample size, 80% event rate.
 * *data_generation_8.r* - linear covariate effect, 100 sample size, 50% event rate.
 * *data_generation_9.r* - linear covariate effect, 300 sample size, 50% event rate.
@@ -41,7 +41,7 @@ In this folder, we summarize the computing codes for fitting the proposed surviv
 * *analysis_3.r* - tree-based effect, 300 sample size, 50% event rate.
 * *analysis_4.r* - tree-based effect, 300 sample size, 30% event rate.
 * *analysis_5.r* - tree-based effect, 500 sample size, 30% event rate.
-* *analysis_6.r* - tree-based effect, 500 sample size, 30% event rate.
+* *analysis_6.r* - tree-based effect, 500 sample size, w0% event rate.
 * *analysis_7.r* - linear covariate effect, 100 sample size, 80% event rate.
 * *analysis_8.r* - linear covariate effect, 100 sample size, 50% event rate.
 * *analysis_9.r* - linear covariate effect, 300 sample size, 50% event rate.
