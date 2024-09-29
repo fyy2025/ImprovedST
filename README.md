@@ -10,7 +10,7 @@ This repository contains computing codes for the paper "Improving the within-Nod
 
 ### 1-Data Generation
 
-In this folder, we summarize the computing codes for generating survival data following a Weibull hazard model. There are two subfolders, `Continuous` containing codes for generating data with only continuous variables, and `Categorcial` containing codes for data involving categorical variables. Each of the two folders contains two folders, `low dimension` where each dataset generated has 10 covariates and `high dimension` where each dataset generated has n+50 dataset (n is the number of observations). In each folder, the names of the code and the corresponding simulation scenarios in the paper are as follows,
+In this folder, we summarize the computing codes for generating survival data following a Weibull hazard model. There are two subfolders, `Continuous` containing codes for generating data with only continuous variables, and `Categorcial` containing codes for data involving categorical variables. Each of the two folders contains two folders, `low dimension` where each dataset generated has 10 covariates and `high dimension` where each dataset generated has (n+50) covariates (n is the number of observations). In each folder, the names of the code and the corresponding simulation scenarios in the paper are as follows,
 
 
 * *data_generation_1.r* - tree-based effect, 100 sample size, 80% event rate.
@@ -34,32 +34,31 @@ In this folder, we summarize the computing codes for generating survival data fo
 
 ### 2-Analysis
 
-In this folder, we summarize the computing codes for fitting the proposed survival tree ensemble method and comparing the concordance index with single tree approach. The names and descriptions of the files are as follows,
+In this folder, we summarize the computing codes for fitting the proposed survival tree ensemble method and comparing the concordance index with single tree approach. The structure is the same as that in `Data_generation` In each folder, the names of the code and the corresponding simulation scenarios in the paper are as follows,
 
 * *analysis_1.r* - tree-based effect, 100 sample size, 80% event rate.
 * *analysis_2.r* - tree-based effect, 100 sample size, 50% event rate.
 * *analysis_3.r* - tree-based effect, 300 sample size, 50% event rate.
-* *analysis_4.r* - tree-based effect, 300 sample size, 20% event rate.
-* *analysis_5.r* - linear covariate effect, 100 sample size, 80% event rate.
-* *analysis_6.r* - linear covariate effect, 100 sample size, 50% event rate.
-* *analysis_7.r* - linear covariate effect, 300 sample size, 50% event rate.
-* *analysis_8.r* - linear covariate effect, 300 sample size, 20% event rate.
-* *analysis_9.r* - nonlinear covariate effect, 100 sample size, 80% event rate.
-* *analysis_10.r* - nonlinear covariate effect, 100 sample size, 50% event rate.
-* *analysis_11.r* - nonlinear covariate effect, 300 sample size, 50% event rate.
-* *analysis_12.r* - nonlinear covariate effect, 300 sample size, 20% event rate.
+* *analysis_4.r* - tree-based effect, 300 sample size, 30% event rate.
+* *analysis_5.r* - tree-based effect, 500 sample size, 30% event rate.
+* *analysis_6.r* - tree-based effect, 500 sample size, 30% event rate.
+* *analysis_7.r* - linear covariate effect, 100 sample size, 80% event rate.
+* *analysis_8.r* - linear covariate effect, 100 sample size, 50% event rate.
+* *analysis_9.r* - linear covariate effect, 300 sample size, 50% event rate.
+* *analysis_10.r* - linear covariate effect, 300 sample size, 30% event rate.
+* *analysis_11.r* - linear covariate effect, 500 sample size, 30% event rate.
+* *analysis_12.r* - linear covariate effect, 500 sample size, 20% event rate.
+* *analysis_13.r* - nonlinear covariate effect, 100 sample size, 80% event rate.
+* *analysis_14.r* - nonlinear covariate effect, 100 sample size, 50% event rate.
+* *analysis_15.r* - nonlinear covariate effect, 300 sample size, 50% event rate.
+* *analysis_16.r* - nonlinear covariate effect, 300 sample size, 30% event rate.
+* *analysis_17.r* - nonlinear covariate effect, 500 sample size, 30% event rate.
+* *analysis_18.r* - nonlinear covariate effect, 500 sample size, 20% event rate.
 
-### 3-Applications
+### Data availability statement
 
-In this folder, we include the datasets and computing code used to illustrate the application of the proposed method.
-
-* *lung.csv* - a cleaned version of North Central Cancer Treatment Group Lung Cancer Data, which is publically available in the R package `survival' (Therneau and Lumley, 2013).
-* *Full Data Tree Structure_lung.r* - the computing code for analyzing North Central Cancer Treatment Group Lung Cancer Data.
-* *S1Data.csv* - a cleaned version of Cardiovascular Medical Records from the Faisalabad Institute of Cardiology, which is publically available (Chicco and Jurman, 2020).
-* *Full Data Tree Structure_cardio.r* - the computing code for analyzing Cardiovascular Medical Records from the Faisalabad Institute of Cardiology.
+All data are publicly available. The dataset used in Section 4.1 in the paper is included in the ‘survival’ package in R. The dataset from Section 4.2 is available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license at https://plos.figshare.com/articles/Survival_analysis_of_heart_failure_patients_A_case_study/5227684/1. The dataset in Section 4.3 is available in the ‘curatedOvarianData’ package in R.
 
 ## References
 
 * Li, H., Fan, Y., & Cai, J. (2024+). Improving the within-Node Estimation of Survival Trees while Retaining Interpretability. Manuscript Submitted for Publication.
-* Therneau, T., & Lumley, T. (2013). R survival package. R Core Team, 523.
-* Chicco, D., & Jurman, G. (2020). Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC medical informatics and decision making, 20, 1-16.
