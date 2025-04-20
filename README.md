@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains computing codes for the paper "Improving the within-Node Estimation of Survival Trees while Retaining Interpretability". Please click [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13821) for the full text of the paper.
+This repository contains computing codes for the paper "Improving the within-Node Estimation of Survival Trees while Retaining Interpretability". Please click [here](https://www.tandfonline.com/doi/full/10.1080/02664763.2025.2473535?af=R) for the full text of the paper.
 
 ## Folders
 
@@ -61,4 +61,4 @@ All data are publicly available. The dataset used in Section 4.1 in the paper is
 
 ## References
 
-* Li, H., Fan, Y., & Cai, J. (2024+). Improving the within-Node Estimation of Survival Trees while Retaining Interpretability. Manuscript Submitted for Publication.
+* Li, H., Fan, Y., & Cai, J. (2025). Improving the within-node estimation of survival trees while retaining interpretability. Journal of Applied Statistics, 1–15. https://doi.org/10.1080/02664763.2025.2473535
